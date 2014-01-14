@@ -1,0 +1,18 @@
+
+@main(Messages("playauthenticate.index.title")) {
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit">
+        <h1>@Messages("travlr.index.intro")</h1>
+        <p>@Messages("travlr.index.intro_2")</p>
+      </div>
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span4">
+            <p><a class="hero-btn" href="@routes.Application.login()">@Messages("travlr.index.btn.signup") &raquo;</a></p>
+        </div>
+        <div class="span4">
+            <p><a class="btn" href="@routes.Application.signup()">@Messages("playauthenticate.index.details") &raquo;</a></p>
+        </div>
+      </div>
+    }
