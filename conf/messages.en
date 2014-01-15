@@ -7,6 +7,7 @@ travlr.index.intro_2=Share your travel story. Discover new places.
 
 # ---Travlr Button text
 travlr.index.btn.signup=Signup with email
+travlr.index.btn.login=Login
 
 # --- Constraints
 constraint.required=Required

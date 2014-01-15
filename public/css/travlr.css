@@ -1,3 +1,7 @@
+.index-row {
+    margin-top: 80px;
+    margin-left: 200px;
+}
 .hero-btn {
     background: #3498db;
     background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
@@ -17,10 +21,66 @@
 
 .hero-btn:hover {
     background: #3cb0fd;
+    color: #ffffff;
     background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
     text-decoration: none;
+}
+
+.signup-btn {
+    background: #ff0900;
+    background-image: -webkit-linear-gradient(top, #ff0900, #e82c2c);
+    background-image: -moz-linear-gradient(top, #ff0900, #e82c2c);
+    background-image: -ms-linear-gradient(top, #ff0900, #e82c2c);
+    background-image: -o-linear-gradient(top, #ff0900, #e82c2c);
+    background-image: linear-gradient(to bottom, #ff0900, #e82c2c);
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.signup-btn:hover {
+    background: #ff0900;
+    color: #ffffff;
+    background-image: -webkit-linear-gradient(top, #ff0900, #ff0900);
+    background-image: -moz-linear-gradient(top, #ff0900, #ff0900);
+    background-image: -ms-linear-gradient(top, #ff0900, #ff0900);
+    background-image: -o-linear-gradient(top, #ff0900, #ff0900);
+    background-image: linear-gradient(to bottom, #ff0900, #ff0900);
+    text-decoration: none;
+}
+
+.intro-unit {
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+
+.intro-unit h1 {
+    margin-bottom: 0;
+    padding: 5px;
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -1px;
+    /*width: 730px;
+    height: 70px;
+    background: rgba(248, 252, 248, 0.50);*/
+}
+
+.intro-unit p {
+    font-size: 30px;
+    color: #ffffff;
+    text-shadow: 2px 2px #000;
+    font-weight: 200;
+    /*width: 400px;
+    height: 20px;
+    background: rgba(248, 252, 248, 0.50);*/
 }
